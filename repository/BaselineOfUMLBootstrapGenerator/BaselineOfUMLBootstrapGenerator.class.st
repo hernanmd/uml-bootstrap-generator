@@ -1,5 +1,5 @@
 "
-Baseline for https://github.com/OpenPonk/uml-bootstrap-generator
+Baseline for https://github.com/hernanmd/uml-bootstrap-generator
 "
 Class {
 	#name : #BaselineOfUMLBootstrapGenerator,
@@ -14,7 +14,7 @@ BaselineOfUMLBootstrapGenerator >> baseline: spec [
 		for: #common
 		do: [ spec
 				baseline: 'OPXMI'
-				with: [ spec repository: 'github://openponk/xmi/repository' ].
+				with: [ spec repository: 'github://hernanmd/xmi/repository' ].
 			spec
 				baseline: 'ChangesBuilder'
 				with: [ spec repository: 'github://peteruhnak/pharo-changes-builder:v1.x/repository' ].
